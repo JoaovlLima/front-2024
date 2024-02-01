@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elevador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="predio">
+    <div class="part1">
+        <div class="elevator-container">
+            <div class="elevator">
+                <div class="elevator-door">
+                    <div class="elevator-cabin">
+                        <div class="floor">
+                            <p id="andarElevador2"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="botoes">
+                    <button class="button" onclick="requestElevator(1)">-2</button>
+                    <button class="button" onclick="requestElevator(2)">-1</button>
+                    <button class="button" onclick="requestElevator(3)">T</button>
+                    <button class="button" onclick="requestElevator(4)">1</button>
+                    <button class="button" onclick="requestElevator(5)">2</button>
+                    <button class="button" onclick="requestElevator(6)">3</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="chamarElevador">
+        <h1>Você está no andar</h1>
+        <p id="andar">?</p>
+        <button onclick="chamarElevador()">Chamar</button>
+    </div>
+    
+    <div class="part2">
+        <div class="elevator-container2">
+            <div class="elevator2">
+                <div class="elevator-door2">
+                    <div class="elevator-cabin2">
+                        <div class="floor2">
+                            <p id="andarElevador2"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="botoes2">
+                    <button class="button2" onclick="requestElevator2(1)">-2</button>
+                    <button class="button2" onclick="requestElevator2(2)">-1</button>
+                    <button class="button2" onclick="requestElevator2(3)">T</button>
+                    <button class="button2" onclick="requestElevator2(4)">1</button>
+                    <button class="button2" onclick="requestElevator2(5)">2</button>
+                    <button class="button2" onclick="requestElevator2(6)">3</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
